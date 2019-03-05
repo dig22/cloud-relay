@@ -24,10 +24,10 @@ let updateInterval = setInterval(() => {
             
             let data = JSON.parse(chunk); 
 
-            relay1GPIO.writeSync(data.relay1);
-            relay2GPIO.writeSync(data.relay2);
-            relay3GPIO.writeSync(data.relay3);
-            relay4GPIO.writeSync(data.relay4);
+            //relay1GPIO.writeSync(data.relay1);
+            //relay2GPIO.writeSync(data.relay2);
+            //relay3GPIO.writeSync(data.relay3);
+            //relay4GPIO.writeSync(data.relay4);
         });
 
 
