@@ -9,10 +9,10 @@ var relay3GPIO = new Gpio(4, 'out');
 var relay4GPIO = new Gpio(17, 'out');
 
 
-relay1GPIO.writeSync(0);
-relay2GPIO.writeSync(0);
-relay3GPIO.writeSync(0);
-relay4GPIO.writeSync(0);
+relay1GPIO.writeSync(1);
+relay2GPIO.writeSync(1);
+relay3GPIO.writeSync(1);
+relay4GPIO.writeSync(1);
 
 
 let updateInterval = setInterval(() => {
